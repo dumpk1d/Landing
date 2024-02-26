@@ -1,0 +1,75 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/EscapeArtistBold-EaaBz.otf);
+}
+
+
+body {
+    background: 
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+		url("8bit.jpg");
+    color: rgb(206, 187, 187); 
+    background-size: cover;
+    background-attachment: fixed;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.block {
+    border-color: black;
+    background-color: rgba(87, 63, 53, 0.7);
+    height: 15%;
+    border-radius: 10px;
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border: 5px inset  rgb(114, 143, 153);
+}
+
+.name {
+    position: sticky;
+    top: 50px;
+    height: 20%;
+    text-align: center;
+    size: 200%;
+    font-size: xx-large;
+    font-family: myFirstFont;
+
+}
+ul {
+    list-style: none;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    bottom: 0;
+    left: -35px;
+    margin: auto;
+}
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+  }
+
+li img {
+    margin: auto;
+    top: 1
+}

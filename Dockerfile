@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------
-# Dockerfile to build Docker Image of Apace from buiness card site 
+# Dockerfile to build Docker Image of Apache from Apache
 #
 # Made by dumpk1d 26-February-2024
 #---------------------------------------------------------------------- 

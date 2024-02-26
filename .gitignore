@@ -1,5 +1,5 @@
 conf/
 log/
 start.sh
-*.otf
-*.zip
+**.otf
+**.zip

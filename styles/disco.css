@@ -1,0 +1,63 @@
+body{
+    background: url("/images/disco.jpg");
+    color: rgb(206, 187, 187); 
+    background-size: cover;
+    background-attachment: fixed;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    
+}
+
+
+/*Button styles*/
+#startButton {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    left: 45%;
+    top: 50%;
+    position: fixed; 
+    display: inline-block;
+    font-family: system-ui, sans-serif;
+    font-size: xx-large;
+    cursor: pointer;
+    padding: .1em .6em;
+    font-weight: bold;  
+    border: none;
+    --c:  #2b1e0c;
+     box-shadow: 0 0 0 .1em inset var(--c); 
+    background:  var(--_g) calc(var(--_p,0%) - 100%) 0%;
+}
+
+#startButton:hover {
+    --_p: 100%;
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+    transition: background-position .4s, background-size 0s;
+}
+#startButton:active {
+    box-shadow: 0 0 9e9q inset #0009; 
+    background-color: var(--c);
+    color: #fff;
+}
+
+/*Table styles*/
+table {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border-spacing: 10px;
+}
+
+img {
+  border-radius: 10%;
+}
+
+@media (max-width: 1000px) {
+  #startButton {
+      left:65px;
+      top: 50%;
+  }
+}

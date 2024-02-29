@@ -1,5 +1,3 @@
-conf/
-log/
-start.sh
-**.otf
-**.zip
+audio
+.git
+

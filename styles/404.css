@@ -1,0 +1,29 @@
+body 
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), 
+     url(/images/404.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width: 99%;
+    height: 99%;
+}
+
+.block {
+    display: block;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(10, 10, 10);
+    height: 50px;
+    width: 250px;
+    margin: 22% 45%auto;
+
+    font-size: xx-large;
+}
+
+@media (max-width: 1000px) {
+        .block {
+            margin: 100% 35% auto;
+        }
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&display=swap')
+

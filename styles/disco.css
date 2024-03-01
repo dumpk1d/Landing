@@ -1,5 +1,6 @@
 body{
-    background: url("/images/disco.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), 
+		url("/images/disco.jpg");
     color: rgb(206, 187, 187); 
     background-size: cover;
     background-attachment: fixed;
@@ -15,7 +16,7 @@ body{
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-    left: 45%;
+    left: 42%;
     top: 50%;
     position: fixed; 
     display: inline-block;

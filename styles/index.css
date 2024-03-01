@@ -7,19 +7,18 @@
 body {
     background: 
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-		url("/images/8bit.jpg");
-    color: rgb(206, 187, 187); 
+		url("/images/forest.jpg");
+    color: rgb(230, 217, 217); 
     background-size: cover;
     background-attachment: fixed;
     width: 99%;
     height: 99%;
-    position: absolute;
 }
 
 
 .block {
     border-color: black;
-    background-color: rgba(87, 63, 53, 0.7);
+    background-color: rgba(7, 6, 6, 0.3);
     height: 15%;
     border-radius: 10px;
     width: 450px;
